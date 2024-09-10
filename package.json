@@ -1,13 +1,16 @@
 {
   "name": "mymswtestapp",
   "version": "0.1.0",
+  "homepage": "myPage",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "browser-router": "^0.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -33,6 +36,14 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "msw": "^2.4.4"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
     ]
   }
 }
